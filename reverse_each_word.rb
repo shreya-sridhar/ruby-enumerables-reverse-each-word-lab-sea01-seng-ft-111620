@@ -1,3 +1,5 @@
 def reverse_each_word(str)
-  %w[str].collect{|i| i.reverse}
+  arr=%w[str]
+  arr.collect{|i| i.reverse}
+  arr.join("")
 end
